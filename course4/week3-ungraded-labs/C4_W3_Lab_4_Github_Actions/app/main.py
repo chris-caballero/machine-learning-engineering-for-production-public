@@ -4,6 +4,7 @@ from typing import List
 from fastapi import FastAPI
 from pydantic import BaseModel, conlist
 
+# this comment triggers ci/cd on initial commit
 
 # use fastapi for predictions
 app = FastAPI(title="Predicting Wine Class with batching")
